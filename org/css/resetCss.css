@@ -1,0 +1,80 @@
+.smallInput input{
+    position: absolute;
+    left: 9.2em;
+    padding-left: 0;
+}
+.imgPosition {
+    position: relative !important;
+    top: -2.5em;
+    left: -7.7em;
+}
+#legalIdentityFront_1 div {
+    position: relative;
+    top: -1.28em;
+}
+#legalIdentityFront_2>.webuploader-pick{
+    background: url("../img/frontIdentityCard.png") no-repeat center center !important;
+    background-size: 11.25em 7.5em !important;
+}
+#legalIdentityFront_2 div {
+    position: relative;
+    top: 1.2em;
+
+}
+
+#legalIdentityReverse_2>.webuploader-pick{
+    background: url("../img/reverseIdentityCard.png") no-repeat center center !important;
+    background-size: 11.25em 7.5em !important;
+}
+#legalBank_2>.webuploader-pick{
+    background: url("../img/bankCard.png") no-repeat center center !important;
+    background-size: 11.25em 7.5em !important;
+}
+.imgKeep {
+    margin-top: 2em;
+}
+#legalIdentityReverse_1 div {
+    /*position: absolute;*/
+    /*top: 4em;*/
+    /*left: -2em;*/
+}
+#legalIdentityReverse_2 {
+    position: relative;
+    top: -2.52em;
+    left: -2em;
+}
+#legalIdentity {
+    border-bottom: 0;
+}
+#legalIdentity2 {
+    padding-bottom: 0;
+}
+#legalBank_2,#legalBank_4 {
+    top: -1.2em;
+}
+#legalBank_1 div{
+    position: relative;
+    top: -1.3em;
+}
+
+/*读取图片摆放位置*/
+#handIdentity_1 div {
+    position: relative;
+    top: -2.5em;
+    left: -7.6em;
+}
+#legalIdentityFront_1 div {
+    position: relative;
+    top: -1.28em;
+    left: -7.6em;
+}
+#legalIdentityReverse_1 div {
+    position: absolute;
+    top: -2em;
+    left: -7.6em;
+}
+#legalBank_1 div {
+    position: relative;
+    top: -1.2em;
+    left: -7.6em;
+}

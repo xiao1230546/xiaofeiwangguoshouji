@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">    
+    <script src="js/jquery.min.js"></script>
+    <link rel="stylesheet" href="./bootstrap3.3.7/css/bootstrap.css">
+    <link rel="stylesheet" href="css/base.css">
+    <script src="bootstrap3.3.7/js/bootstrap.js"></script>
+    <script src="layermobilev2.0/layer_mobile/layer.js"></script>
+    <script src="js/index.js"></script>
+    <script src="webuploader0.1.5/webuploader.js"></script>
+    <link rel="stylesheet" href="webuploader0.1.5/webuploader2.css">
+    <link rel="stylesheet" href="css/LArea.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/resetCss.css" />
+    <title>商家入驻</title>
+
+</head>
+<body >
+<div class="error_a">
+    <div id="errerr_b" class="error">
+    </div>
+</div>
+<footer id="legalIdentitys" class="fonnter sett_fonnter org4">
+       <form class="information">
+
+           <!--法人姓名-->
+           <label for="" class=" input_l smallInput">法人姓名
+               <input type="text" name="name" id="legalName" placeholder="填写公司法人姓名">
+           </label>
+
+           <!--法人身份证号-->
+           <label for="" class=" input_l smallInput">法人身份证号
+               <input type="text" name="name" id="legalIdentityNum" placeholder="填写公司法人身份证号码">
+           </label>
+
+            <div class="clearfix input-row input_l">
+               
+                <div class="input_wrapper">
+                    <div class="qf cpo_radi">
+                        <input  id="qyone" class="fl qylxds" type="radio" name="nea" checked="checked" value="企业">
+                        <label id="frs" class="fl esec dsyuxe">法人</label>
+                        <input id="gerentow" class="fl qylxds" type="radio" name="nea" value="个人">
+                        <label id="wts"  class="fl esec esec_a dsyuxe_no" class="">委托</label>
+                    </div>
+                </div>
+            </div>
+
+
+           <!--法人身份证手持照片-->
+           <label for="" id="yyzz" class=" input_l input_l_3"><span id="frsfz">法人身份证</span><br />(手持照片)
+               <div id="uploader-demo">
+                   <!--用来存放item-->
+                   <div id="handIdentity_1" class="uploader-list"></div>
+                   <div id="handIdentity_2" class="disla"></div>
+               </div>
+           </label>
+
+           <!--法人身份证-->
+           <label for="" id="legalIdentity" class=" input_l input_l_3" ><span id="frsfz_z">法人身份证</span>
+
+               <!--正面-->
+               <div id="uploader-demo">
+                   <!--用来存放item-->
+                   <div id="legalIdentityFront_1" class="uploader-list"></div>
+                   <div id="legalIdentityFront_2" class="disla"></div>
+               </div>
+           </label>
+
+           <label for="" id="legalIdentity2" class=" input_l input_l_3">
+
+               <!--反面-->
+               <div id="uploader-demo">
+                   <!--用来存放item-->
+                   <div id="legalIdentityReverse_1" class="uploader-list"></div>
+                   <div id="legalIdentityReverse_2" class="disla"></div>
+               </div>
+           </label>
+
+           <!--法人银行卡-->
+           <label for="" id="" class=" input_l input_l_3"><span id="fryinh">法人银行卡</span>
+               <div id="uploader-demo">
+                   <!--用来存放item-->
+                   <div id="legalBank_1" class="uploader-list"></div>
+                   <div id="legalBank_2" class="disla"></div>
+               </div>
+           </label>
+
+           <!--法人授权书-->
+           <label for="" id="" class="wtr input_l input_l_3"><span id="frsqs">法人授权委</span><br />托书
+               <div id="uploader-demo">
+                   <!--用来存放item-->
+                   <div id="legalBank_1_c" class="uploader-list"></div>
+                   <div id="legalBank_2_c" class="disla"></div>
+               </div>
+           </label><input type="hide">
+           <!--委托人姓名-->
+           <label for="" class="wtr input_l smallInput">委托人姓名
+               <input type="text" name="name" id="wtr_name" placeholder="填写委托人姓名">
+           </label>
+           
+           <!--法人银行卡卡号-->
+           <label for="fullname" class=" input_l smallInput"><span id="yinhangkh">法人银行卡</span><br />卡号
+               <input type="text" name="name" id="legalBankNum" placeholder="填写银行卡卡号" value="">
+           </label>
+
+           <!--开户行-->
+           <label for="fullname" class=" input_l smallInput">开户行
+
+               <input id="legalOpenBank" onfocus="javascript:this.blur()" type="text" readonly="readonly" name="input_area" value="填写您的开户行" />
+               <input id="value1" type="hidden" value="" />
+           </label>
+
+           <!--支行-->
+           <label for="fullname" class=" input_l smallInput">支行
+               <input type="text" name="name" id="legalBankChild" placeholder="填写您的支行">
+           </label>
+       </form>
+   </footer>
+   <input id="CardId" type="hidden" value="">
+   <label for="preservation" class="input_l_1 col-xs-12 csessa_labe">
+       <input type="button" name="" class="preservation_a text-center csessa" id="four" value="保存" >
+       <div></div>
+   </label>
+   <input id="data_OrgCode" type="hidden" value="">
+</body>
+<script src="js/businessStep4js.js"></script>
+<script src="js/LArea.js"></script>
+<script src="js/js/org4js.js"></script>
+</html>

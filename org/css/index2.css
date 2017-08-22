@@ -1,0 +1,372 @@
+
+/*首页——消费王国*/
+.enter_bg {
+    width: 100%;
+}
+.enter_bg img{
+    width: 100%;
+}
+.main_content {
+    text-align: center;
+    width: 100%;
+    padding: 0 0 1rem 0;
+}
+.main_content h1 {
+    font-weight: bold ;
+    font-size: 0.32rem;
+    margin-top: 0.6rem;
+}
+.main_content p {
+    width: 6.4rem;
+    margin: 0.25rem auto 0;
+    font-size: 0.28rem;
+    line-height: 0.45rem;
+    text-align: left;
+    /*margin-top: 0.25rem;*/
+    padding-left: 0.2rem;
+}
+.main_foot {
+    height: 3.75em; overflow: hidden;
+    bottom: 0em;
+    position: fixed;
+    width: 100%;
+}
+.grzc{
+    width: 100%;
+}
+.main_foot div {
+    width: 50%;
+    float: left;
+    text-align: center;
+    line-height: 3.75em;
+
+}
+#main_customer {
+    height: 1.2rem;
+    background: -webkit-linear-gradient(left, #fa2828 , #fd3f1a); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, #fa2828, #fd3f1a); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, #fa2828, #fd3f1a); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, #fa2828 , #fd3f1a); /* 标准的语法（必须放在最后） */
+}
+#main_customer img {
+    width: 1.343em;
+    height: 1.343em;
+    display: inline-block;
+    margin-top: -0.2em;
+
+}
+.main_foot span {
+    font-size: 1em;
+    color: #fff;
+}
+#main_business {
+    height: 1.2rem;
+    background: -webkit-linear-gradient(left, #ff6200 , #ff7e00); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, #ff6200, #ff7e00); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, #ff6200, #ff7e00); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, #ff6200 , #ff7e00); /* 标准的语法（必须放在最后） */
+}
+#main_business img {
+    width: 1.5em;
+    height: 1.375em;
+    display: inline-block;
+    margin-top: -0.2em;
+
+}
+
+
+hr {
+
+    border-top: 0.5px solid #dbdbdb !important;
+}
+
+#enterprise1_check,#enterprise1_p2,#enterprise1_p1{
+    font-size: 0.937em;
+}
+.main_content{
+    padding:1.875em 1.562em  !important;
+    margin-bottom:3.5em;
+}
+.main_content p {
+    font-size: 0.875em;
+    padding: 1.25em 0 0 0 ;
+    margin: 0!important;
+
+}
+.main_content_p1e{
+    font-weight: 600;
+    font-size: 1em !important;
+    padding: 0 !important;
+}
+
+.inv_p{
+    color: #49494c;
+}
+
+
+.information input{
+    text-align: right;
+}
+
+/*推荐分享*/
+.recongmend {
+    background: url("/img/icon_myBarcode.png?_t=1492765718482") no-repeat center center;
+    background-size: 6em 6em;
+    width: 6em;
+    height: 6em;
+    margin: 0 auto;
+
+}
+/*我的推荐用户*/
+.my_users{
+    width: 3.156em;
+    height: 3.156em;
+    padding: 0;
+    border-radius: 50%;
+
+
+}
+.users_xxxs{
+    height:4.315em;
+
+}
+.dsew{
+    line-height: 1em !important;
+    display: block;
+}
+.my_users_div{
+    padding-top: 0.5em;
+    padding-left: 0.937em;
+    height: 4.315em;
+    border-bottom: 0.5px solid #dbdbdb;
+    margin-bottom: 0.5em;
+
+}
+/*#user_list{
+    border-bottom:1px solid #dbdbdb;
+}*/
+.my_users img {
+    width:100%;
+    height: 100%;
+    border-radius: 50%;
+    line-height: 4.315em;
+}
+#home,#profile{
+    border-bottom: 1px solid #dbdbdb;
+}
+.users{
+
+    padding: 0;
+    padding-left: 0.8em;
+    padding-top: 0.4em;
+    color:#49494c !important;
+
+
+}
+.qytxs {
+    border-radius:50%;
+}
+.showborder{
+    border-bottom: 2px solid #fa2828;
+}
+.nav > li > a{
+    width: 7em;
+    margin: 0 auto;
+    height: 3em;
+    font-size: 1em !important;
+    color: #1c1c20 !important;
+}
+
+
+.resdsc_ul{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    background-color:#fff;
+    border-bottom:solid 0.5px #dbdbdb;
+}
+.tab-content{
+    padding-top: 3em;
+}
+.resdsc_ul_a{
+    width: 100%;
+    height: 3em;
+
+}
+.resdsc_ul_a li{
+    height: 100%;
+}
+.nav > li>a:hover, .nav > li > a:focus{
+    background-color: #fff;
+    border-bottom: 3.5px solid #fa2828;
+}
+.users_a{
+    background-color: #fa2828;
+    color: #fff;
+    border-radius: 4px;
+    padding: 2px;
+    font-size: 0.75em;
+}
+.nav li a, .nav li{
+
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/*我的推荐商家*/
+
+.showborder{
+    border-bottom: 3.5px solid #fa2828;
+
+
+
+}
+
+.rec_business {
+    background: url("/img/txx2.png?_t=1492765718482") 2em center no-repeat;
+    background-size: 3.5em 3.5em;
+    width: 100%;
+    height: 5em;
+    line-height: 5em;
+}
+.rec_business p {
+    margin-left: 3.4em;
+    color: #49494c;
+}
+
+.rec_businesscheck p {
+    margin-left: 6.4em;
+    color: #49494c;
+}
+.rec_businesscheck img {
+    width: 2.8125em;
+    height: 1.25em;
+    display: inline-block;
+    margin-top: -0.2em;
+}
+
+/*企业信息*/
+.enterprise {
+    width: 100%;
+    height: 6em;
+    line-height: 6em;
+    background: url("../img/icon_enterpriselogo.png") no-repeat right center;
+    background-size: 4.2em 4.2em;
+}
+
+.information {
+    width: 85%;
+    margin: 0 auto;
+}
+.information hr {
+    width: 100%;
+    margin: 0 auto;
+}
+.enterprise1 {
+    width: 100%;
+    height: 4em;
+    line-height: 4em;
+    position: relative;
+}
+.enterprise1_p {
+    position: absolute;
+    right: 0em;
+}
+.enterprise3 {
+    width: 100%;
+    height: 8em;
+    position: relative;
+    line-height: 8em;
+    background: url("../img/icon_license.png") no-repeat right center;
+    background-size: 5.625em 5.625em;
+}
+.enterprise3 p {
+
+}
+.enterprise4 {
+    width: 100%;
+    height: 14.125em;
+    line-height: 14.125em;
+}
+
+.show_box {
+    display: inline-block;
+    margin-top: 1em;
+    width: 12.25em;
+    height: 12.25em;
+    position: relative;
+    background-color: #9d9d9d;
+    float: right;
+
+}
+.show_box img {
+    width: 5.625em;
+    height: 5.625em;
+}
+#show1 {
+    position: absolute;
+    left: 0;
+    top:0;
+}
+#show2 {
+    position: absolute;
+    right: 0;
+    top:0;
+}
+#show3 {
+    position: absolute;
+    left: 0;
+    bottom:0;
+}
+#show4 {
+    position: absolute;
+    right: 0;
+    bottom:0;
+}
+
+.succ_div{
+    font-size: 1.062em;
+    color:#fff4f4 ;
+}
+.succ_fonnter1{
+    width: 18.562em;
+    /*height: 27.5em;*/
+    margin: 0 auto;
+    position: relative;
+    /*background-color: #f3f3f4;*/
+}
+.succ_erweima1{
+    width: 18.562em;
+    height: 22.25em;
+    background: url("../img/guanzhu2.png") no-repeat top center;
+    background-size: 18.562em 22.25em;
+    position: absolute;
+    top: 3em;
+    z-index: 2;
+}
+.succ_img1{
+    width: 10.031em;
+    height: 10.031em;
+    position: absolute;
+    top: 9.25em;
+    left: 50%;
+    margin-left: -5.05em;
+}
+.succ_img1 img{
+    width: 100%;
+    height: 100%;
+}
+.infor_foot {
+    background-color: #f3f3f4;
+}
+.org4{
+    padding-bottom: 10em;
+}
+
+
+
+
+
+
+
+

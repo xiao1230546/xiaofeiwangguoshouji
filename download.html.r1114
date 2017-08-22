@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>消费王国</title>
+    <link rel="stylesheet" href="css/index.css">
+    <meta name="keywords" content="消费，消费王国，购物，返现" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="favicon.ico" mce_href="favicon.ico" rel="bookmark" type="image/x-icon" />
+    <link href="favicon.ico" mce_href="favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="favicon.ico" mce_href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <script src="js/jquery-3.2.0.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+<!--header-->
+<div class="head">
+    <img src="img/icon_logo_head.png">
+    <div class="flexAlign">
+        <div>
+            <a href="index.html">平台介绍</a>
+        </div>
+        <div>
+            <a href="download.html"  class="click" style="color: #fff;">产品下载</a>
+        </div>
+        <div>
+            <a href="contact.html">联系我们</a>
+        </div>
+        <div>
+            <a href="">商家入驻</a>
+        </div>
+    </div>
+</div>
+
+
+<!--<div class="head">-->
+    <!--<img src="img/icon_logo_head.png">-->
+    <!--<div class="nav">-->
+        <!--<ul>-->
+            <!--<li><a href="index.html">平台介绍</a></li>-->
+            <!--<li id="head_li"><a href="productionDownload.html"  class="click" style="color: #fff;">产品下载</a></li>-->
+            <!--<li><a href="contact.html">联系我们</a></li>-->
+        <!--</ul>-->
+    <!--</div>-->
+<!--</div>-->
+<!--main-->
+<section class="downloadBg">
+    <img src="img/download.png">
+    <div onclick="checkSys()" class="downAPP1"></div>
+    <!--<a href="" class="aButton1"><img class="button1" src="img/button1.png"></a>-->
+</section>
+<!--footer-->
+<div class="footer"  id="downFoot">
+    <img src="img/icon_logo_foot.png">
+    <p>© 2017 Chongqing XiaoFeiWangGuo Technology Co.,Ltd.</p>
+    <p>重庆消费王国科技有限公司</p>
+    <p>备案许可证号：渝ICP备17004494号-1</p>
+    <p style="padding-bottom: 0.75rem">邮箱：service@xiaofeiwangguo.com</p>
+</div>
+</body>
+<script type="text/javascript">
+    function checkSys() {
+        var u = navigator.userAgent;
+        var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1; //android终端
+        var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+        if(isAndroid && !isiOS){
+            alert('你的手机系统为安卓，下载功能请稍后')
+        }else if(!isAndroid && isiOS){
+            alert('你的手机系统为ios，下载功能请稍后')
+        }
+//        alert('是否是Android：'+isAndroid);
+//        alert('是否是iOS：'+isiOS);
+    }
+</script>
+</html>

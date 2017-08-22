@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./bootstrap3.3.7/css/bootstrap.css">
+    <link rel="stylesheet" href="css/base.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="bootstrap3.3.7/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/index2.css">
+    <script src="js/index.js"></script>
+    <title>我的推荐</title>
+    <script>
+        function showborder1() {
+            $("#push1").addClass("showborder");
+            $("#push2").removeClass("showborder");
+        }
+        function showborder2() {
+            $("#push2").addClass("showborder");
+            $("#push1").removeClass("showborder");
+        }
+    </script>
+
+</head>
+
+    <div>
+        <div class="resdsc_ul">
+            <ul class="nav text-center resdsc_ul_a" role="tablist">
+                <li id="grtj" role="presentation" class=" col-xs-6"><a class="showborder" id="push1" onclick="showborder1()" href="#home" aria-controls="home" role="tab" data-toggle="tab">我推荐的消费者</a></li>
+                <li id="sjtj" role="presentation " class="col-xs-6"><a href="#profile" id="push2" onclick="showborder2()" href="#profile" aria-controls="profile" role="tab"
+                        data-toggle="tab">我推荐的商家</a></li>
+            </ul>
+        </div>
+        <div id="user_list" class="tab-content">
+
+
+        </div>
+        <div id="org_list" class="tab-content" style="display:none;">
+
+
+        </div>
+    </div>
+    <div id="ckdiue" style="display:none; padding-top: 3em;">
+        <header class="reg_header">
+            <div class="recongmend">
+            </div>
+            <div class="text-center">
+                <p class="inv_p">您还没有推荐的用户</p>
+                <p class="inv_p">赶快去分享您的专属二维码吧</p>
+            </div>
+        </header>
+        <footer class="">
+            <form class="">
+                <label for="preservation" class="input_l_1 col-xs-12 indseee">
+                    <input type="button" name="" class="preservation_a text-center" id="preservation_sw" value="立即分享" >
+                </label>
+           
+            </form>
+
+        </footer>
+    </div>
+
+
+</body>
+<script src="js/js/reconmendadminjs.js"></script>
+
+</html>

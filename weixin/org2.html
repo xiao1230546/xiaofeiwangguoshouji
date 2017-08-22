@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="js/jquery.min.js"></script>
+    <link rel="stylesheet" href="./bootstrap3.3.7/css/bootstrap.css">
+    <link rel="stylesheet" href="css/base.css">
+    <script src="bootstrap3.3.7/js/bootstrap.js"></script>
+    <script src="layermobilev2.0/layer_mobile/layer.js"></script>
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/LArea.css">
+    <script src="http://api.map.baidu.com/api?v=1.4" type="text/javascript"></script>
+    
+
+    <title>商家入驻2</title>
+
+</head>
+
+<body>
+    <div class="error_a">
+        <div id="errerr_b" class="error">
+        </div>
+    </div>
+    <div id="main" class="fonnter sett_fonnter">
+        <input id="OrgCode" type="hidden" value="" />
+        <div class="clearfix input-row input_l">
+            <label class="fl">商家名称</label>
+            <div class="input_wrapper">
+                <input type="text" name="name" id="orgname" value="">
+            </div>
+        </div>
+        <div class="clearfix input-row input_l">
+            <label class="fl">信用代码</label>
+            <div class="input_wrapper">
+                <input type="text" name="tuijianren" id="UnionCode" placeholder="填写公司统一社会信用代码">
+            </div>
+        </div>
+        <div class="clearfix input-row input_l">
+            <label class="fl">商家类型</label>
+            <div class="input_wrapper">
+                <div class="qf cpo_radi">
+                    <input  id="qyone" class="fl qylxds" type="radio" name="nea" checked="checked" value="企业">
+                    <label id="qi" class="fl esec dsyuxe">企业</label>
+                    <input id="gerentow" class="fl qylxds" type="radio" name="nea" value="个人">
+                    <label id="gt"  class="fl esec esec_a dsyuxe_no" class="">个体</label>
+                </div>
+            </div>
+        </div>
+        <div id="hylb" class="clearfix input-row input_l">
+            <label class="fl">行业类别</label>
+            <div class="input_wrapper input_wspan">
+
+                <input id="demo2" readonly="readonly" onfocus="javascript:this.blur()" type="text" readonly="" name="" value="选择行业分类" />
+                <input id="value2" type="hidden" value="" />
+                <span class="inp_spane"></span>
+
+            </div>
+        </div>
+        <div id="ranglilv" class="clearfix input-row input_l">
+            <label class="fl">让利率</label>
+            <div class="input_wrapper">
+                <input onfocus="javascript:this.blur()" type="text" readonly="readonly" name="" id="rll" placeholder="填写让利率，例如：20%">
+            </div>
+        </div>
+        <div class="clearfix input-row input_l">
+            <label class="fl">联系电话</label>
+            <div class="input_wrapper">
+                <input type="text" name="" id="lxdh" placeholder="填写联系电话">
+            </div>
+        </div>
+        <div class="clearfix input-row input_l">
+            <label class="fl">行政区域</label>
+            <div class="input_wrapper input_wspan">
+                <input id="demo1" onfocus="javascript:this.blur()" type="text" readonly="readonly" name="input_area" value="选择省市区" />
+                <input id="value1" type="hidden" value="" />
+                <span class="inp_spane"></span>
+            </div>
+        </div>
+        <div class="clearfix input-row input_l">
+            <label class="fl">详细地址</label>
+            <div class="input_wrapper">
+                <input type="text" name="" id="xxdz" placeholder="填写详细地址">
+            </div>
+        </div>
+        <div id="mapd" class="clearfix input-row input_l">
+            <label class="fl">地图定位</label>
+            <div class="input_wrapper input_wspan">
+                <input id="demo3" readonly="readonly" onfocus="javascript:this.blur()" type="text" name="" value="地图定位" />
+                <input id="value3" type="hidden" value="" />
+                <span class="inp_spane"></span>
+            </div>
+        </div>
+
+    </div>
+    <label for="preservation" class="input_l_1 col-xs-12 csessa_labe fugai">
+        <input type="button" name="" class="preservation_a text-center csessa" id="one" value="下一步" >
+        <div></div>
+    </label>
+
+    <div id="dasde_a" class="dasde" style="left:-120%">
+        <div></div>
+        <div id="Parent" class="pode fl">
+
+        </div>
+        <div id="Parent_a" class="pode fl"></div>
+
+    </div>
+
+    <!--地图-->
+    <div id="mayep" class="dasde" style="left:-120%">
+        <div id="" class="mayep_a">
+            <div id="allmap"></div>
+            <div class="essuggestId">
+                <div id="r-result"><input type="text" id="suggestId" size="20" value="" placeholder="请输入您的城市" /></div>
+                <div id="searchResultPanel" style="border:1px solid #C0C0C0;width:150px;height:auto; display:none;"></div>
+            </div>
+            <div id="esstId">确认定位</div>
+
+        </div>
+
+    </div>
+    <iframe id="geoPage" width=0 height=0 frameborder=0 style="display:none;" scrolling="no" src="https://apis.map.qq.com/tools/geolocation?key=OB4BZ-D4W3U-B7VVO-4PJWW-6TKDJ-WPB77&referer=myapp">
+
+    </iframe>
+
+</body>
+
+
+<script src="js/LAreaData1.js"></script>
+<script src="js/LArea.js"></script>
+<script src="js/LAreaData2.js"></script>
+<script src="js/js/org2js.js"></script>
+
+
+</html>

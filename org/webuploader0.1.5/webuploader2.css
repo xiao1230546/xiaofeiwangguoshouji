@@ -1,0 +1,46 @@
+.webuploader-container {
+	position: relative;
+	width: 11.25em !important;
+	float: right;
+	top: -2.5em;
+	left: -2em;
+	
+}
+.webuploader-element-invisible {
+	display: none !important;
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px,1px,1px,1px);
+}
+.webuploader-pick {
+
+	display: inline-block;
+	cursor: pointer;
+	background: url("../img/handIdentityCard.png")no-repeat center center !important;
+	background-size: 11.25em 7.5em !important;
+	background-color: #f3f3f4 !important;
+	width: 11.25em;
+	height: 7.5em;
+
+
+
+}
+.webuploader-pick img{
+	width: 100%;
+	height: 100%;
+}
+.webuploader-pick-hover {
+	background: #00a2d4;
+}
+
+.webuploader-pick-disable {
+	opacity: 0.6;
+	pointer-events:none;
+}
+.uploader-list{
+	width: 5.75em;
+	margin: 0 auto !important;
+	float: right;
+}
+
+

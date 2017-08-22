@@ -1,0 +1,45 @@
+.webuploader-container {
+	position: relative;
+	width: 5.75em !important;
+	float: right;
+	
+	
+}
+.webuploader-element-invisible {
+	display: none !important;
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px,1px,1px,1px);
+}
+.webuploader-pick {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	background: url("../img/sc.png")no-repeat center center !important;
+	background-size: 2.187em 2.187em !important;
+	background-color: #f3f3f4 !important;
+	width: 5.75em;
+	height:5.75em;
+	right:0 !important;
+
+
+}
+.webuploader-pick img{
+	width: 100%;
+	height: 100%;
+}
+.webuploader-pick-hover {
+	background: #00a2d4;
+}
+
+.webuploader-pick-disable {
+	opacity: 0.6;
+	pointer-events:none;
+}
+.uploader-list{
+	width: 5.75em;
+	margin: 0 auto !important;
+	float: right;
+}
+
+

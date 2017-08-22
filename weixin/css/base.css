@@ -1,0 +1,100 @@
+@charset "UTF-8";
+/*css 初始化 */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+fieldset, img,input,button { border:none; padding:0;margin:0;outline-style:none; }
+ul, ol { list-style:none; }
+input { padding-top:0; padding-bottom:0; font-family: "Microsoft YaHei","Arial";}
+select, input { vertical-align:middle;}
+select, input, textarea { font-size:15px; margin:0; }
+textarea { resize:none; } /*防止拖动*/
+img {border:0;	vertical-align:middle; }  /*  去掉图片低测默认的3像素空白缝隙*/
+table { border-collapse:collapse; }
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #c6c6c7; opacity:1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #c6c6c7;opacity:1;
+}
+input:-ms-input-placeholder{
+    color: #c6c6c7;opacity:1;
+}
+input::-webkit-input-placeholder{
+    color: #c6c6c7;opacity:1;
+}
+label{margin: 0;!important; padding: 0;!important; font-weight: 400!important;}
+body {
+    font-size:16px;
+   	color: #1c1c20;
+    background-color:#fff;
+    font-family:"Microsoft YaHei", "Open Sans", "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", 微软雅黑, sans-serif;
+}
+/*清除浮动的两种方式*/
+    /*方式1*/
+.qf:before, .qf:after {
+    content:"";
+    display:table;
+}
+.qf:after {
+    clear:both;
+}
+.qf {
+    zoom:1;
+}
+/*方式2，缺陷是会隐藏超出部分的内容*/
+.of {
+    overflow:hidden;
+}
+
+a {color:#666; text-decoration:none !important; }
+
+h1,h2,h3,h4,h5,h6 {text-decoration:none;font-weight:normal;font-size:100%;}
+s,i,em{font-style:normal;text-decoration:none;}
+.col-red{color: #C81623!important;}
+
+/*公共类*/
+.w {  /*版心 提取 */
+    width: 1200px;
+    margin:0 auto;
+
+}
+.w1 {  /*版心 提取 */
+    width: 900px;
+    margin:0 auto;
+    overflow: hidden;
+
+}
+
+.windex {  /*版心 提取 */
+    width: 1200px;
+    margin:0 auto;
+
+}
+.fl {
+    float:left
+}
+.fr {
+    float:right
+}
+.al {
+    text-align:left
+}
+.ac {
+    text-align:center
+}
+.ar {
+    text-align:right
+}
+.hide {
+    display:none
+}
+
+.bgc {
+    background-color: #000000;
+}
+
+.bgc1 {
+    background-color: #fff;
+}
+.bgc2 {
+    background-color: #ff0000;
+}

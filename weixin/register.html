@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./bootstrap3.3.7/css/bootstrap.css">
+    <link rel="stylesheet" href="css/base.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="layermobilev2.0/layer_mobile/layer.js"></script>
+    <script src="bootstrap3.3.7/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+
+    <title>消费者注册</title>
+</head>
+<body onload="tales()" style="display:none;">
+   <header class="reg_header">
+       <div class="register">
+       </div>
+       <div class="re_title">
+       </div>
+   </header>
+   <footer class="fonnter">
+       <form class="">
+           <label for="fullname" class=" input_l">姓名&nbsp;&nbsp;&nbsp;
+               <input type="text" name="name" id="fullname" placeholder="填写您的姓名">
+           </label>
+           <label for="tuijianren" class=" input_l">推荐人
+               <input type="text" name="" id="tuijianren" placeholder="填写推荐人手机号码">
+           </label>
+           <label for="phone" class=" input_l">手机&nbsp;&nbsp;&nbsp;
+               <input type="text" name="phone" id="phone" placeholder="填写您的手机号码">
+           </label>
+           <label for="verification" class=" input_l input_2">验证码
+               <input type="text" name="verification" id="verification" placeholder="填写验证码" autocomplete="off">
+               <input type="button" name="" class="submit_a ver_a" id="obtaino" onclick="sjyzm()" value="获取验证码">
+           </label>
+           <label for="preservation" class="input_l_1 col-xs-12">
+               <input type="button" name="preservation" class="preservation_a text-center" id="preservation" value="保 存" >
+           </label>
+       </form>
+   </footer>
+</body>
+<script src="js/index.js"></script>
+<script src="js/js/registerjs.js"></script>
+</html>
